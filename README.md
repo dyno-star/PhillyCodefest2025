@@ -17,3 +17,23 @@ Want to get B.A.G.S. up and running? Here’s how to do it:
 🔧 Command Options
 
 Run the following command with the necessary parameters:
+
+python app.py --ip 0.0.0.0 --port 8000 -m paty_kerry.pt
+
+
+🛠️ Available Flags:
+
+📌 -i or –ip → IP address of the device (Required)
+📌 -o or –port → Port number for the server (Required)
+📌 -f or –frame_count → Number of frames used to construct the background model (Default: 32)
+📌 -m or –model → AI Model to use (Options: katy_perry.pt 🎤, paty_kerry.pt 🎶, Default: katy_perry.pt)
+📌 -b or –backend → Backend to use (Options: cuda ⚡, cpu 🖥️, Default: cuda if available, otherwise cpu)
+
+🙏 Acknowledgments
+
+This project wouldn’t be possible without these amazing tools:
+
+🔹 OpenCV 📸 - © 2000-2025 OpenCV.org (Licensed under Apache-v2.0)
+🔹 Ultralytics 🧠 - © 2023-2025 Ultralytics (Licensed under AGPL-v3.0)
+
+🌍 Together, we can make recycling smarter! ♻️ 🚀
